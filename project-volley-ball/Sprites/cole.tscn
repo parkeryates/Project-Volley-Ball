@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://buxoq5fcsy7t7"]
 
-[ext_resource type="Script" uid="uid://djow48om8rxab" path="res://Sprites/cole.gd" id="1_cw31l"]
+[ext_resource type="Script" uid="uid://djow48om8rxab" path="res://Scripts/cole.gd" id="1_cw31l"]
 [ext_resource type="Texture2D" uid="uid://y6woqf8cxdo0" path="res://Assets/Cole/ColeIdle (1).png" id="1_q7pok"]
 [ext_resource type="Texture2D" uid="uid://bflmscappa1pm" path="res://Assets/Cole/ColeSlide.png" id="2_jsb1a"]
 [ext_resource type="Texture2D" uid="uid://sx6axhndinmt" path="res://Assets/Cole/ColeRun.png" id="3_k2mjy"]

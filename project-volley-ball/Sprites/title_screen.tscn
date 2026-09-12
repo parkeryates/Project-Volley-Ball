@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://dtdr0171gok7o"]
+
+[ext_resource type="Script" uid="uid://ccgc2grb22r7v" path="res://Scripts/title_screen.gd" id="1_5pw6l"]
+[ext_resource type="FontFile" uid="uid://bhaqhy43eeoka" path="res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/TTF/SourceCodePro-Black.ttf" id="1_nswhw"]
+
+[node name="TitleScreen" type="Control" unique_id=1740572052]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5pw6l")
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=889843458]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartButton" type="Button" parent="." unique_id=18645061]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 488.0
+offset_right = 688.0
+offset_bottom = 577.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_nswhw")
+theme_override_font_sizes/font_size = 64
+text = "Start"
+flat = true
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
