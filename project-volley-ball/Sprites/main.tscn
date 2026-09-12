@@ -1,3 +1,15 @@
 [gd_scene format=3 uid="uid://buolvv25aqsv1"]
 
+[ext_resource type="PackedScene" uid="uid://buxoq5fcsy7t7" path="res://Sprites/cole.tscn" id="1_ye2eo"]
+[ext_resource type="Texture2D" uid="uid://ctt5e7y3o4q5q" path="res://Assets/beachbkgIso.png" id="2_7y2xl"]
+
 [node name="Main" type="Node2D" unique_id=1917858485]
+
+[node name="Beach" type="Sprite2D" parent="." unique_id=693214685]
+z_index = -100
+position = Vector2(576, 324)
+scale = Vector2(2.8799999, 1.5069766)
+texture = ExtResource("2_7y2xl")
+
+[node name="Cole" parent="." unique_id=1732012553 instance=ExtResource("1_ye2eo")]
+position = Vector2(208, 432)
